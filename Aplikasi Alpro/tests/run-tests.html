@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>EksponenKu — Uji Otomatis</title>
+  <link rel="stylesheet" href="../app/css/style.css">
+  <style>#out{white-space:pre-wrap;font:13px/1.4 Consolas,monospace;background:#fff;color:#111;padding:1rem;border:1px solid #ccc;margin:1rem}</style>
+</head>
+<body>
+  <pre id="out">Menjalankan uji...</pre>
+  <!-- kerangka aplikasi yang sama dengan index.html -->
+  <header id="top" class="top"></header>
+  <main id="view" class="view" tabindex="-1"></main>
+  <nav id="tabs" class="tabs" hidden><a href="#/" data-tab="home"><span></span>Beranda</a></nav>
+  <div id="sheet" class="sheet-backdrop" hidden><div class="sheet"><div class="sheet-head"><h2 id="sheet-title"></h2><button id="sheet-close" data-close-sheet>x</button></div><div id="sheet-body"></div></div></div>
+  <div id="toast" hidden></div>
+
+  <script>try { localStorage.removeItem('eksponenku:v1'); } catch (e) {}</script>
+  <script src="../app/js/math.js"></script>
+  <script src="../app/js/icons.js"></script>
+  <script src="../app/js/content.js"></script>
+  <script src="../app/content/properties.js"></script>
+  <script src="../app/content/u1.js"></script>
+  <script src="../app/content/u2.js"></script>
+  <script src="../app/content/u3.js"></script>
+  <script src="../app/content/u4.js"></script>
+  <script src="../app/content/u5.js"></script>
+  <script src="../app/content/u6.js"></script>
+  <script src="../app/content/u7.js"></script>
+  <script src="../app/content/u8.js"></script>
+  <script src="../app/content/modeling.js"></script>
+  <script src="../app/js/grader.js"></script>
+  <script src="../app/js/store.js"></script>
+  <script src="../app/js/app.js"></script>
+  <script src="tests.js"></script>
+</body>
+</html>
